@@ -1,6 +1,6 @@
 # Project 2 - *Flixster*
 
-**Flixster** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**Flixster** is an android app that lets users view a list of movies sourced from the The Movie Database API.
 
 Submitted by: **Remo Rulloda**
 
