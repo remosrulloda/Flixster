@@ -55,7 +55,7 @@ Describe any challenges encountered while building the app.
 ### App Walkthough GIF
 
 <img src="walkthrough.gif" width=250><br>
-<img src="walkthrough1.gif" width=250><br>
+<img src="walkthrough1.gif" height=250><br>
 
 ### Notes
 A challenge I encounted was allowing the emulator to run the current project and not the previous one.
