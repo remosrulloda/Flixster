@@ -2,8 +2,13 @@ plugins {
     id 'com.android.application'
 }
 
+def apikeyPropertiesFile = rootProject.file("apikey.properties")
+def apikeyProperties = new Properties()
+apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
+
 android {
     compileSdk 31
+
 
     defaultConfig {
         applicationId "com.example.flixster"
@@ -13,6 +18,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // should correspond to key/value pairs inside the file
+        buildConfigField("String", "YOUTUBE_KEY", apikeyProperties['YOUTUBE_KEY'])
+
     }
 
     buildTypes {

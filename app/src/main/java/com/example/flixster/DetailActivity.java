@@ -24,7 +24,7 @@ import okhttp3.Headers;
 
 public class DetailActivity extends YouTubeBaseActivity {
 
-    private static final String YOUTUBE_API_KEY = "AIzaSyCOqGXvKFl8rLH0o3L9piKp-_0_gL3Yo44";
+    private static final String YOUTUBE_API_KEY = BuildConfig.YOUTUBE_KEY;
     public static final String VIDEOS_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
 
     TextView tvTitle;
